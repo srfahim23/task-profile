@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* navbar here  */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    position: fixed; /* Fixing the navbar to the top */
+    width: 100%; /* Ensuring the navbar spans the full width */
+    top: 0; /* Positioning it at the top */
+    z-index: 1000; /* Ensuring it stays above other content */
+}
+
+.main-logo span {
+    color:  #ffffff;
+    font-size: 24px;
+}
+
+.navlink ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navlink li {
+    margin: 0 15px;
+}
+
+.navlink a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btn.download-btn button {
+    padding: 10px 20px;
+    background-color: #FFD500; /* Download CV button color */
+    border: none;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn.download-btn button:hover {
+    background-color: black; /* Changing button color to black on hover */
+    color: #ffffff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navlink ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navlink li {
+        margin: 10px 0;
+    }
+
+    .btn.download-btn {
+        margin-top: 10px;
+    }
+}
+/* here navbar end  */
+
+/* main content here   */
+main {
+    margin: 20px;
+    padding: 20px;
+   
+}
+
+.hero-section{
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.hero-content{
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img{
+    margin-left: 20px;
+    padding: 20px;
+}
+.hero-content > h2, button {
+    margin-right: 20px;
+}
+
+.hero-content {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-text{
+    display: block;
+    margin:20px;
+    padding: 20;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    min-width: 30%;
+    height: auto;
+}
+
+

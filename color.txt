@@ -1,0 +1,8 @@
+heading background color : (#FFFFFF)
+
+logo name color : #B8B9BB
+
+
+download cv / btn  color : #FFD500
+
+another color from hero : #FEFEFE
